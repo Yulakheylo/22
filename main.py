@@ -102,35 +102,35 @@ def form_sample():
                                      </div>
                                         <label for="checkbox">Какие у вас есть профессии?</label></br>
                                             <label class="form-check-label" for="p">
-                                            <input class="form-check-label" type="checkbox" name="sex" id="p" value="p">
+                                            <input class="form-check-label" type="checkbox" name="prof" id="p" value="p">
                                           инженер-исследователь
 
                                           <label class="form-check-label" for="z">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="z" value="z">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="z" value="z">
                                           пилот
 
                                           <label class="form-check-label" for="k">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="k" value="k">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="k" value="k">
                                           строитель
 
                                           <label class="form-check-label" for="y">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="y" value="y">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="y" value="y">
                                          экзобиолог 
 
                                           <label class="form-check-label" for="r">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="r" value="r">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="r" value="r">
                                          врач
 
                                           <label class="form-check-label" for="e">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="e" value="e">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="e" value="e">
                                           инженер по терраформированию
 
                                           <label class="form-check-label" for="f">
-                                            <input class="form-check-input" type="checkbox" name="sex" id="f" value="f">
+                                            <input class="form-check-input" type="checkbox" name="prof" id="f" value="f">
                                           климатолог
 
                                           <label class="form-check-label" for="w">
-                                         <input class="form-check-input" type="checkbox" name="sex" id="w" value="w">
+                                         <input class="form-check-input" type="checkbox" name="prof" id="w" value="w">
                                             специалист по радиационной защите
                                     <div class="form-group">
                                         <label for="form-check">Укажите пол</label>
@@ -166,7 +166,6 @@ def form_sample():
                         </html>'''
     elif request.method == 'POST':
         print(request.form['email'])
-        print(request.form['password'])
         print(request.form['class'])
         print(request.form['file'])
         print(request.form['about'])
